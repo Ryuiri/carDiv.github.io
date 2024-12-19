@@ -17,6 +17,7 @@ header{
     grid-template-columns: 1fr 600px;
     gap: 100px;
     align-items: center;
+    z-index: 2;
 
 & img{
     width: 250px
@@ -30,5 +31,13 @@ grid-template-columns: repeat(3, 200px);
 }
 section {
     background-image: radial-gradient(#7f3d9e,#6d00d9);
-    
+    height: 100vh;
+    position: relative;
+}
+.arrows{
+ & button {
+    & img {
+        width: 100px;
+    }
+ }
 }
