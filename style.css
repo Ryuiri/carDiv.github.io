@@ -53,6 +53,14 @@ section {
             transform: rotate(-30deg);
         }
       }
+      & .content {
+        position: absolute;
+        right: 100px;
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
     }
   }
 }
