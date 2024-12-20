@@ -124,6 +124,9 @@ section {
             border-radius: 5px;
             transition: 0.5s;
         }
+        & .active{
+            background-color: white;
+        }
     }
   }
 }
