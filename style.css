@@ -19,6 +19,7 @@ header {
     grid-template-columns: 1fr 600px;
     align-items: center;
     gap: 10%;
+    z-index: 2;
 & img{
     width: 250px;
 }
@@ -35,4 +36,11 @@ section{
     position: relative;
 }
 
+.arrows{
+    & button{
+        & img{
+            width: 100px;
+        }
+    }
+}
 
