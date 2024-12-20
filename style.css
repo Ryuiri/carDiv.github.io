@@ -34,6 +34,12 @@ section{
     background-image: radial-gradient(#7f3d9e,#6d00d9);
     height: 100vh;
     position: relative;
+    & .list {
+    width: 70vw;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    }
 }
 
 .arrows{
