@@ -40,13 +40,24 @@ section{
     height: 100%;
     margin: auto;
     position: relative;
+    & .item {
+        position: absolute;
+        inset: 0;
+        & .car-img {
+         position: absolute;
+         top: 50%;
+         transform: translateY(-50%);
+        }
     }
+    }
+    
 }
 
 .arrows{
     & button{
         & img{
             width: 100px;
+         
         }
     }
 }
