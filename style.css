@@ -72,7 +72,9 @@ section {
         }
          & .description{
             color: #d9d9d9;
-            
+            font-size: 12px;
+            text-align: right;
+            max-width: 400px;
          }
       }
     }
