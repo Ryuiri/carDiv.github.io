@@ -71,6 +71,7 @@ section {
             line-height: 1em;
         }
          & .description{
+            color: #d9d9d9;
             
          }
       }
